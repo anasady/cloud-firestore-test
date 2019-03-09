@@ -1,0 +1,17 @@
+<div class="mat-app-background basic-container item-container">
+  <h4>Purchased</h4>
+  <mat-list>
+    <mat-list-item *ngFor="let item of items | async">
+      <mat-icon matListIcon color="primary">check_circle_outline</mat-icon>
+      <div matLine>
+        <span><strong>{{item.name}}</strong></span>
+        <span><button mat-icon-button color="warn" (click)="deleteItem(item)">
+          <mat-icon aria-label="Delete">delete</mat-icon>
+        </button></span>
+      </div>
+      <div matLine>
+        <small>{{item.quantity}}</small>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>

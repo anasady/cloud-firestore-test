@@ -2,13 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
+## Shopping List Generator
+This simple app is made up of 3 components
+- Shopping List Item
+  - Allows the user to add an item to the shopping list
+  - Name and Quantity are required
+- Shopping List
+  - Displays a list of only items that need to be purchased
+  - Allows users to mark an item as purchased
+- Purchased Shopping List
+ - Displays a list of only items that have already been purchased
+ - Allows the users to delete an item from the list
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 

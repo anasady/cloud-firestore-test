@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/cloud-firestore-test",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
